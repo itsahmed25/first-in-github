@@ -145,11 +145,81 @@
   <option value="C++">
   <option value="Scala">
 </datalist>
+<hr>
+<q>This Is Wise Word</q>
+<blockquote>This Is Wise Word</blockquote>
+<button>Click</button>
+<div>
+  https://www.youtube.com/<wbr>playlist?list=PLM_i0obccy3swdHfFh1FrLEVVFMp8<wbr>-5Jc&fbclid=IwAR2eP038MSFNJSmNCssdpaBm3KofEJUG9e<wbr>jR95GGGm9AKB0StOIPpLA6fgc
+</div>
+<p>السلام 2 Welcome</p>
+<p><bdi>السلام</bdi> 2 Welcome</p>
+<hr>
+<code>
+    var x = 10;
+    var y = 20;
+    console.log(x + y);
+  </code>
+  <p>
+    This Is
+    P
+    New Line
+    New Line
+  </p>
+  <pre>
+    This Is
+    P
+    New Line
+    New Line
+  </pre>
+  <pre>
+    <code>
+      var x = 10;
+      var y = 20;
+      console.log(x + y);
+    </code>
+  </pre>
+  <iframe src="https://elzero.org/" width="800" height="400"></iframe>
+<hr>
 
+<form action="">
+    <label for="user">Username</label>
+    <input id="user" type="text" name="user">
+    <!-- Old -->
+    <div>Send</div>
+    <div>Reset</div>
+    <!-- New -->
+    <button>Send</button>
+    <button>Reset</button>
+  </form>
 
+<hr>
 
+ <!-- ARIA -->
+ <h1>Book Title</h1>
 
-
+ <h3>Chapter One</h3>
+ <p>
+   Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptas placeat necessitatibus nulla velit quae
+   reprehenderit minus fugiat illo tempora eaque, ullam corrupti doloribus perspiciatis unde rem perferendis nesciunt
+   aspernatur!
+ </p>
+ <div>
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus quisquam sed at reiciendis asperiores officia
+   similique id non, ducimus nobis possimus eligendi itaque magni molestias illum quam beatae. Velit, facilis?
+ </div>
+ <h2>Inside Chapter One</h2>
+ <form action="">
+   <label for="skill1">Skill One</label>
+   <input id="skill1" type="checkbox" checked />
+   <label for="skill2">Skill Two</label>
+   <input id="skill2" type="checkbox" />
+ </form>
+ <hr />
+ <div role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="plan1">Plan One</div>
+ <label id="plan1">Plan One Label</label>
+ <div tabindex="0">Plan Two</div>
+ <div tabindex="0">Plan Three</div>
 
 
 
@@ -368,3 +438,4 @@ tr => table row
 
 </body>
 </html>
+
